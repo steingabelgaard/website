@@ -13,9 +13,10 @@
         <field name="theme_id" ref="theme_default"/>
     </record>
 
-    <!-- This method prepare assets and applies default theme for all websites -->
+    <!-- This method prepare assets and applies default theme for all websites 
     <function model="website.config.settings"
               name="multi_theme_reload"
               eval="([],)"
               />
+     It fails on an existing installation -->
 </odoo>
